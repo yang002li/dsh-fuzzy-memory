@@ -1,0 +1,45 @@
+{
+  "name": "dsh-fuzzy-memory",
+  "version": "0.2.0",
+  "description": "DSH 模糊记忆插件：从对话里抽关键词、存一句话印象，按需想起；显式事实进核心档案，永远记得。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "author": "YYY",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang02li/dsh-fuzzy-memory.git"
+  },
+  "homepage": "https://github.com/yang02li/dsh-fuzzy-memory#readme",
+  "bugs": {
+    "url": "https://github.com/yang02li/dsh-fuzzy-memory/issues"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory",
+    "fuzzy-memory",
+    "companion",
+    "persona"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24"
+  }
+}

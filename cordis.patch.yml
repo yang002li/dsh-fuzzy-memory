@@ -1,0 +1,10 @@
+# dsh-fuzzy-memory —— DSH bundle patch
+# 安装后由 DSH 的 bundle 层栈叠加，把插件挂进 web profile。
+# 默认开启；想回到原生 DeepSeek 模式，在 profile 的 cordis.patch.yml 里
+# 按 id 覆盖成 enabled: false 即可。
+
+- insert:
+    - id: dsh-fuzzy-memory
+      name: dsh-fuzzy-memory
+      config:
+        enabled: true
