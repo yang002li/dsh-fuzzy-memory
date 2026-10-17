@@ -12,11 +12,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yang02li/dsh-fuzzy-memory.git"
+    "url": "git+https://github.com/yang002li/dsh-fuzzy-memory.git"
   },
-  "homepage": "https://github.com/yang02li/dsh-fuzzy-memory#readme",
+  "homepage": "https://github.com/yang002li/dsh-fuzzy-memory#readme",
   "bugs": {
-    "url": "https://github.com/yang02li/dsh-fuzzy-memory/issues"
+    "url": "https://github.com/yang002li/dsh-fuzzy-memory/issues"
   },
   "files": [
     "lib",
